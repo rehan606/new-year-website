@@ -1,5 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.merriweather{
+    font-family: "Merriweather Sans", sans-serif;
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+/* Common CSS */
+.primary-color{
+    color: #FF0000;
+}
+.secondary-color{
+    color: #070211;
+}
+.content-color{
+    color: #FFFFFF;
+}
+.h-font-72{
+    font-size: 72px;
+    font-weight: 900;
+}
+.h-font-48{
+    font-size: 48px;
+}
+.p-font-20{
+    font-size: 20px;
+}
+/* ========================= */
+
+
+/* Banner section start */
+.banner-container{
+    background-image: url(../images/Banner\ Image.png);
+    width: 1320px;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+    margin-top: 30px;
+
+}
+.banner-container::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+.banner-content .banner-greatings{
+    font-size: 32px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.banner-content h1 {
+    color: #FFFFFF;
+    line-height: 95px;
+    text-align: center;
+}
+.banner-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+}
+
+
+/*============= Banner section end =============*/
+
+/* Offer section start */
+.offer{
+    padding: 120px 0;
+}
+.offer-content{
+    text-align: center;
+}
+.offer-content h1{
+    font-size: 88px;
+    font-weight: bold;
+    margin-bottom: 48px;
+}
+.offer-content h4{
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 16px;
+}
+.offer-content h2{
+    margin-bottom: 20px;
+}
+/*============= Offer section end =============*/
+
+
+/* Midnight party section start */
+.party{
+    background-image: url(../images/Vectorrr.png);
+    width: 1320px;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+.party::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+.party-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: left;
+    height: 600px;
+    margin-left: 125px;
+}
+.party-content h1{
+    font-size: 64px;
+    font-weight: 900;
+    color: #FFFFFF;
+    line-height: 88px;
+}
+
+.party-content p{
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 30px;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+.party-content button{
+    padding: 20px 50px;
+    font-size: 20px;
+    background-color: #ffffff;
+    color: #FF0000;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+/*============= Midnight party section end =============*/
+
+/* Seminar section start */
+.seminar{
+    background-color: #EFE7E7 ;
+    width: 1320px;
+    height: 480px;
+    margin: 120px auto;
+    border-radius: 10px;
+    text-align: center;
+}
+.seminar-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 480px;
+}
+.seminar-content h3{
+    font-size: 32px;
+    line-height: 56px;
+    font-weight: 600;
+}
+.seminar-content h3>span{
+    color: #FF0000;
+}
+.seminar-content button{
+    padding: 20px 50px;
+    font-size: 20px;
+    background-color: #FF0000;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 48px;
+}
+/*============= Seminar section end =============*/
+/* Comming soon section start */
+.comming-soon {
+    width: 1320px;
+    height: 460px;
+    margin: 0 auto;
+    display:flex ;
+    gap: 20px;
+    align-items:center;
+    margin-bottom: 120px;
+}
+.comming-soon .content h3{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.comming-soon .content h2{
+    font-weight: 900;
+    margin-bottom: 22px;
+}
+.comming-soon .content p{
+    line-height: 32px;
+}
+.comming-soon .content-image img{
+    border: 10px solid #FF0000;
+    border-radius: 100%;
+    padding: 20px;
+}
+.comming-soon .right{
+    margin-left: 50px;
+}
+.comming-soon .right p{
+    margin-bottom: 40px;
+}
+
+
+
+/*============= Comming soon section end =============*/
