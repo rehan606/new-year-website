@@ -33,6 +33,7 @@
 
 
 /* Banner section start */
+
 .banner-container{
     background-image: url(../images/Banner\ Image.png);
     width: 1320px;
@@ -162,7 +163,8 @@
 
 /* Seminar section start */
 .seminar{
-    background-color: #EFE7E7 ;
+    background: rgb(255,0,0);
+background: linear-gradient(180deg, rgba(255,0,0,0.5130427170868348) 35%, rgba(255,255,255,0.40379901960784315) 100%);
     width: 1320px;
     height: 480px;
     margin: 120px auto;
@@ -235,3 +237,172 @@
 
 
 /*============= Comming soon section end =============*/
+
+/* Holiday day section start */
+.holiday{
+    width: 1320px;
+    height: 987px;
+    margin: 0 auto;
+    text-align: center;
+    background-image:  url(../images/Group\ n.png), url(../images/Group\ 44.png), url(../images/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: bottom left, right center, bottom;
+}
+
+.holiday-content h3{
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+.holiday-content h1{
+    margin-bottom: 28px;
+}
+.holiday-content p{
+    line-height: 32px;
+    padding: 0 50px;
+}
+/*============= Holiday day section end =============*/
+
+/* Portfolio section start */
+.portfolio{
+    width: 1320px;
+    height: 1158px;
+    margin: 120px auto;
+}
+.portfolio-content h3{
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+.portfolio-content h1{
+    margin-bottom: 22px;
+}
+.portfolio-content p{
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 48px;
+}
+.portfolio-image{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 15px;
+}
+.portfolio-image img{
+    width: 100%;
+}
+/*============= Portfolio section end =============*/
+
+/* Newsletter section start */
+
+.newsletter{
+    width: 1320px;
+    height: 615px;
+    margin: 0 auto;
+    background-color: rgba(255, 0, 0, 0.05);
+    margin-bottom: 120px;
+    
+}
+.newsletter-content {
+    width: 896px;
+    height: 336px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 80px;
+}
+.newsletter-content h2{
+    margin: 40px 0 22px 0;
+    font-weight: 900;
+}
+.newsletter-content p{
+    line-height: 32px;
+    font-size: 20px;
+}
+/*
+.form-control{
+  background-color:hsla(0,0%,100%,.8);
+  padding-left:24px;
+  padding-right:24px;
+  letter-spacing:1px;
+  border:none;
+  border-top-left-radius:36px;
+  border-bottom-left-radius:36px
+}*/
+
+.form .form-control{
+    padding: 20px 30px;
+    width: 648px;
+    border-top-left-radius:36px;
+    border-bottom-left-radius:36px;
+    margin-top: 20px;
+    height: 72px;
+    border: 3px solid #FF0000;
+    font-size: 20px;
+    outline-color: #FF0000;
+}
+.form .btn{
+    width: 200px;
+    height: 72px;
+    background-color: #FF0000;
+    color: #EFE7E7;
+    font-size: 20px;
+    border-top-right-radius: 36px;
+    border-bottom-right-radius: 36px;
+    border: none;
+    margin-left: -10px;
+}
+/*============= Newsletter section end =============*/
+
+/* Footer section start */
+.footer-bg{
+    background-color: #070211;
+    height: 610px;
+    width: 100%;
+}
+.footer{
+    width: 1320px;
+    margin: 0 auto;
+    color: #EFE7E7;
+    padding: 120px 0;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.footer-top .address p{
+    font-size: 20px;
+    line-height: 40px;
+}
+.footer-top .phone p{
+    font-size: 20px;
+    line-height: 40px;
+    margin-right: 20px;
+}
+.footer-top .phone img{
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.social-icon {
+    display: flex;
+    justify-content: center;
+    margin: 48px 0;
+}
+.social-icon img{
+    margin-right: 20px;
+    
+}
+.footer-bottom .address{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.footer-bottom .address p{
+    font-size: 20px;
+
+}
+
+
+
+
+
+/*============= Footer section end =============*/
